@@ -1,0 +1,6 @@
+framework module PST {
+  umbrella header "PST.h"
+
+  export *
+  module * { export * }
+}
