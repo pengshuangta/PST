@@ -24,10 +24,13 @@ Pod::Spec.new do |s|
 #项目库中需要包含的源文件
   s.source_files  = 'PST/Frameworks/**/*.{h,m}'
 #公开的头文件
-  s.public_header_files = "PST/Frameworks/**/*.h"
+  #s.public_header_files = "PST/Frameworks/**/*.h"
 #是否支持ARC
   s.requires_arc = true
 #这个是找到对应framework的路径，我是放在Framework下的，请按照我的填写来找到对应你自己的填写
   s.ios.vendored_frameworks = 'PST/Frameworks/PST.framework'
+  # 加载资源文件
+  s.ios.resource_bundle = { 'PST-SDK' => 'PST-SDK/PST/Resources/**/*.{png,jpg}' }
+
 
 end
