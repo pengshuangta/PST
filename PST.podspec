@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 #这个是找到对应framework的路径，我是放在Framework下的，请按照我的填写来找到对应你自己的填写
   s.ios.vendored_frameworks = 'PST/Frameworks/PST.framework'
   # 加载资源文件
-  s.ios.resource_bundle = { 'PST-SDK' => 'PST-SDK/PST/Resources/**/*.{png,jpg}' }
+  s.ios.resource_bundle = 'PST/Resources/**/*.{png,jpg}'
 
 
 end
