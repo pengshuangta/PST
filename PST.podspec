@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 #项目名
   s.name         = "PST"
 #版本号，需要与你git打的tag一致
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
 #项目的一个摘要或简介
   s.summary      = "一个简单的sdk"
 #项目支持的最低iOS系统
